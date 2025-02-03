@@ -1,4 +1,5 @@
 import 'package:animation/widgets/animated_foo.dart';
+import 'package:animation/widgets/custom_animated_builder.dart';
 import 'package:animation/widgets/foo_transition.dart';
 import 'package:animation/widgets/foo_transition_with_two_widgets.dart';
 import 'package:animation/widgets/tween_animation.dart';
@@ -27,7 +28,7 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
-      body:const FooTransitionWithTwoWidgets()
+      body:const CustomAnimatedBuilder()
     );
   }
 }
